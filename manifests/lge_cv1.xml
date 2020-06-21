@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
- <project name="Duhjoker/android_device_lge_cv1" path="device/lge/cv1" remote="github" revision="cm-14.1" />
- <project name="Duhjoker/android_vendor_lge_cv1" path="vendor/lge/cv1" remote="github" revision="cm-14.1"/>
- <project name="Duhjoker/android_vendor_lge_common" path="vendor/lge/common" remote="github" revision="cm-14.1" />
- <project name="Duhjoker/android_vendor_lge_cv1-common" path="vendor/lge/cv1-common" remote="github" revision="cm-14.1" />
- <project name="Duhjoker/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
- <project name="Duhjoker/android_kernel_lge_cv1" path="kernel/lge/cv1" remote="github" />
+<project name="Duhjoker/android_device_lge_common" path="device/lge/common" remote="github" revision="cm-14.1" />
+<project name="Duhjoker/android_device_lge_cv1" path="device/lge/cv1" remote="github" revision="cm-14.1" />
+<project name="Duhjoker/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
+<project name="Duhjoker/android_kernel_lge_cv1" path="kernel/lge/cv1" remote="github" revision="cm-14.1" />
+<project name="Duhjoker/android_vendor_lge_common" path="vendor/lge/common" remote="github" revision="cm-14.1"/>
+<project name="Duhjoker/android_vendor_lge_cv1" path="vendor/lge/cv1" remote="github" revision="cm-14.1"/>
+<project name="Duhjoker/android_vendor_qcomm_audio_kernel" path="vendor/qcom/audio-kernel" remote="github" revision="cm-14.1" />
+
 </manifest>

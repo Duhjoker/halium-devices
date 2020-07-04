@@ -26,24 +26,19 @@
     <remote name="sailfishos"
             fetch="https://github.com/sailfishos" />
 
-    <remote name="Duhjoker"
-            fetch="git://github.com/Duhjoker"
-            revision="cm-14.1" />
-
     <default remote="aosp"
              sync-j="8"
              sync-c="true" />
 
 
-  <project name="Duhjoker/android_device_lge_cv1-common" path="device/lge/cv1-common" remote="github" revision="cm-14.1" />
+    <remote name="Duhjoker" 
+            fetch="https://github.com/Duhjoker/" 
+            revision="cm-14.1" />
 
-  <project name="Duhjoker/android_device_lge_cv1" path="device/lge/cv1" remote="github" revision="cm-14.1" />
-
- <project name="Duhjoker/android_vendor_lge_cv1" path="vendor/lge/cv1" remote="github" revision="cm-14.1" />
-
-  <project name="Duhjoker/android_vendor_lge_cv1-common" path="vendor/lge/cv1-common" remote="github" revision="cm-14.1" />
-
-  <project name="Duhjoker/android_kernel_lge_cv1-common" path="kernel/lge/cv1-common" remote="github" revision="cm-14.1" />
+    <project path="device/lge/cv1" name="android_device_lge_cv1" remote="Duhjoker" />
+    <project path="kernel/lge/cv1-common" name="android_kernel_lge_cv1-common" remote="Duhjoker" />
+    <project path="vendor/lge/cv1" name="android_vendor_lge_cv1" remote="Duhjoker" />
+  
 
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm" />
 

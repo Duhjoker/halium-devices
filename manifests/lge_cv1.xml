@@ -39,9 +39,6 @@
     <project path="kernel/lge/cv1-common" name="android_kernel_lge_cv1-common" remote="Duhjoker" />
     <project path="vendor/lge/cv1" name="android_vendor_lge_cv1" remote="Duhjoker" />
   
-
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm" />
-
     <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
 
     <project path="bionic" name="Halium/android_bionic" groups="pdk" remote="hal" />
